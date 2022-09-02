@@ -1,0 +1,15 @@
+.main{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+feature-img{
+    width: 500px;
+    height: 450px;
+    right: 250px;
+}
+p{
+    font-weight:bold;
+    font-size: 35px;
+    text-align: center;
+}
