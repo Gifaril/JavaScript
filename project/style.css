@@ -4,7 +4,7 @@
     box-sizing: border-box;
     outline: none;
 }
-/*New page*/
+/*Note page*/
 body{
     font-size: 18px;
     font-family: sans-serif;
@@ -70,7 +70,7 @@ body{
 }
 
 
-/*home*/
+/*landing page*/
 .container-home{
     height: 100vh;
     width: 100%;
@@ -84,23 +84,23 @@ body{
 .feature-img{
     height: 100%;
     position: absolute;
-    right: 600px;
+    left: 35%
 }
 .newslatter form{
-    width: 380px;
-    max-width: 80%;
+    width: 30%;
+    max-width: 50%;
     position: relative;
 }
 .newslatter form input:first-child{
-    width: 250px;
+    width: 60%;
     padding: 14px 130px 14px 15px;
     border: 2px solid rgb(141, 117, 87);
     outline: none;
     border-radius: 30px;
     position: absolute;
     display: inline-block;
-    left: 770px;
-    top: 485px;
+    left: 137%;
+    margin-top: 81%;
 }
 .newslatter form input:last-child{
     position: absolute;
