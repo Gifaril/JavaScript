@@ -1,80 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <title>landing page</title>
-        <link rel="stylesheet" href="style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--- Iconscout link for icons-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    </head>
-    <body>
-        <!----2nd Page start here---->
-        <div class="popup-box">
-            <div class="popup">
-                <div class=" content">
-                    <a href="Diary.html"></a>
-                </div>
+  <head>
+    <meta charset="utf-8">  
+    <title>Notes App in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Iconscout Link For Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body>
+    <div class="popup-box">
+      <div class="popup">
+        <div class="content">
+          <header>
+            <p></p>
+            <i class="uil uil-times"></i>
+          </header>
+          <form action="#">
+            <div class="row title">
+              <label>Title</label>
+              <input type="text" spellcheck="false">
             </div>
+            <div class="row description">
+              <label>Description</label>
+              <textarea spellcheck="false"></textarea>
+            </div>
+            <button></button>
+          </form>
         </div>
-        <div class="wrapper">
-            <li class="add-box">
-                <div class="icon"><i class="uil uil-plus"></i></div>
-                <p>Add New</p>
-            </li>
-            <li class="note">
-                <div class="details">
-                    <p>Tilte</p>
-                    <span>kdhsadiddjssisdis</span>
-                </div>
-                <div class="bottom-content">
-                    <span>September 8,2022</span>
-                    <div class="settings">
-                        <i class="uil uil-ellipsis-h"></i>
-                        <ul class="menu">
-                            <li><i class="uil uil-pen"></i>Edit</li>
-                            <li><i class="uil uil-trash"></i>Delete</li>
-                        </ul>
-                    </div>
-                </div>
-            </li>
-            <li class="note">
-                <div class="details">
-                    <p>Tilte</p>
-                    <span>kdhsadiddjssisdis</span>
-                </div>
-                <div class="bottom-content">
-                    <span>September 8,2022</span>
-                    <div class="settings">
-                        <i class="uil uil-ellipsis-h"></i>
-                    </div>
-                </div>
-            </li>
-            <li class="note">
-                <div class="details">
-                    <p>Tilte</p>
-                    <span>kdhsadiddjssisdis</span>
-                </div>
-                <div class="bottom-content">
-                    <span>September 8,2022</span>
-                    <div class="settings">
-                        <i class="uil uil-ellipsis-h"></i>
-                    </div>
-                </div>
-            </li>
-            <li class="note">
-                <div class="details">
-                    <p>Tilte</p>
-                    <span>kdhsadiddjssisdis</span>
-                </div>
-                <div class="bottom-content">
-                    <span>September 8,2022</span>
-                    <div class="settings">
-                        <i class="uil uil-ellipsis-h"></i>
-                    </div>
-                </div>
-            </li>
-        </div>
-        <script src="functionlanding.js"></script>
-    </body>
+      </div>
+    </div>
+    <div class="wrapper">
+      <li class="add-box">
+        <div class="icon"><i class="uil uil-plus"></i></div>
+        <p>Add new note</p>
+      </li>
+    </div>
+    <script src="script.js"></script>
+    
+  </body>
 </html>
