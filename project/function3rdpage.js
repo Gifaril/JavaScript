@@ -10,7 +10,7 @@ const months = ["January", "February", "March", "April", "May", "June", "July",
 const notes = JSON.parse(localStorage.getItem("notes") || "[]");
 let isUpdate = false, updateId;
 addBox.addEventListener("click", () => {
-    popupTitle.innerText = "NEW";
+    popupTitle.innerText = "New";
     addBtn.innerText = "SAVE";
     popupBox.classList.add("show");
     document.querySelector("body").style.overflow = "hidden";
