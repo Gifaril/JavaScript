@@ -5,72 +5,11 @@
     outline: none;
     font-family: 'Poppins', sans-serif;
 }
-/*Note page*/
 body{
     font-size: 18px;
     font-family: sans-serif;
     background-color: wheat;
-    
 }
-.container{
-    width:50%;
-    height: 103vh;    
-    margin: 0 auto;
-    display: flex;
-    flex-direction:column;
-    background-color: burlywood;
-    padding: 25px 10px;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-.line-wrap{
-    margin-bottom: 10px;
-    display: flex;
-    /*width: 2-00px;*/
-}
-.line-wrap::after{
-    content: "";
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin-left: 10px;
-    border-radius: 50%;
-    background-color: wheat;
-}
-
-.line{
-    width: 100;
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid rgb(41,41,41);
-    font-size: 20px;
-}
-.line-wrap:last-of-type{
-    margin-bottom: 0;
-}
-.title-wrap{
-    margin-bottom: 20px;
-}
-.title-wrap{
-    border: none;
-    border-bottom: 1px solid black;
-    background-color: transparent;
-    font-size: 20px;
-    max-width: 250px;
-}
-.btn{
-    max-width: 100px;
-    padding: 10px 15px;
-    border: none;
-    margin-top: 25px;
-    font-size: 18px;
-    color: white;
-    background-color: rgb(141, 117, 87);
-    letter-spacing: 1px;
-    border-radius: 5px;
-}
-
-
 /*landing page*/
 .container-home{
     height: 100vh;
@@ -158,7 +97,7 @@ body{
   border: 2px dashed rgb(141, 117, 87);
 }
 .add-box p{
-  color: rgb(141, 117, 87);
+  color: rgb(71, 51, 27);
   font-weight: 500;
   margin-top: 20px;
 }
@@ -251,6 +190,7 @@ body{
 .menu li i{
   padding-right: 8px;
 }
+/*popup box starts here*/
 .popup-box{
   position: fixed;
   top: 0;
@@ -284,7 +224,7 @@ body{
 }
 .popup .content{
   border-radius: 5px;
-  background: #fff;
+  background: wheat;
   width: calc(100% - 15px);
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
@@ -325,20 +265,25 @@ form :where(input, textarea):focus{
   box-shadow: 0 2px 4px rgba(0,0,0,0.11);
 }
 form .row textarea{
-  height: 150px;
+  height: 200px;
   resize: none;
   padding: 8px 15px;
 }
 form button{
   width: 100%;
   height: 50px;
-  color: #fff;
+  color: rgb(100, 80, 54);
   outline: none;
   border: none;
   cursor: pointer;
   font-size: 17px;
-  border-radius: 4px;
-  background: #6A93F8;
+  border-radius: 12px;
+  background: burlywood;
+  font-weight: bold;
+}
+form button:hover{
+    background-color: transparent;
+    border: solid rgb(141, 117, 87);
 }
 @media (max-width: 660px){
   .wrapper{
