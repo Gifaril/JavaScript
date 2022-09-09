@@ -103,14 +103,6 @@ body{
   font-weight: 500;
   margin-top: 20px;
 }
-<<<<<<< HEAD
-/*Notes*/
-.wrapper .note{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    vertical-align: middle;
-=======
 .note{
   display: flex;
   flex-direction: column;
@@ -138,7 +130,6 @@ body{
 .popup textarea:hover::-webkit-scrollbar-thumb{
   background: #e6e6e6;
   border-radius: 25px;
->>>>>>> ed360a7ea89c39369dbec387f9e29c41f77b85ec
 }
 .note p{
   font-size: 22px;
@@ -179,26 +170,8 @@ body{
   box-shadow: 0 0 6px rgba(0,0,0,0.15);
   transition: transform 0.2s ease;
 }
-<<<<<<< HEAD
-.settings .menu{
-    z-index: 1;
-    bottom: 0;
-    right: -5px;
-    padding: 5px 0;
-    background: #fff;
-    position: absolute;
-    border-radius: 4px;
-    transform: scale(0);
-    transform-origin: bottom right;
-    box-shadow: 0 0 6px rgba(0,0,0,0.15);
-    transition: transform 0.2s ease;
-  }
-.setting:hover .menu{
-    transform: scale(1);
-=======
 .settings.show .menu{
   transform: scale(1);
->>>>>>> ed360a7ea89c39369dbec387f9e29c41f77b85ec
 }
 .settings .menu li{
   height: 25px;
