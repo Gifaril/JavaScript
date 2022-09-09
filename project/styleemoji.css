@@ -166,3 +166,10 @@ a {
   .round {
     border-radius: 30%;
   }
+  h3{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 30%;
+    font-family: sans-serif;
+    color: wheat;
+  }
