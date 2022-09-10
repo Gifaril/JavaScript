@@ -1,6 +1,6 @@
 function passvalues()
 {
-    var diary=document.getElementById("diary").value;
-    localStorage.setItem("textvalue",diary);
+    console.log('i was clicked')
+    localStorage.removeItem("notes");
     return false;
 }

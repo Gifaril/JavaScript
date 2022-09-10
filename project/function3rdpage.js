@@ -9,9 +9,16 @@ const months = ["January", "February", "March", "April", "May", "June", "July",
               "August", "September", "October", "November", "December"];
 const notes = JSON.parse(localStorage.getItem("notes") || "[]");
 let isUpdate = false, updateId;
+const body = document.querySelector("body");
+let col = localStorage.getItem('color');
+if (!col) {
+    col = 'angry'
+}
+body.classList.add(col);
+
 addBox.addEventListener("click", () => {
-    popupTitle.innerText = "NEW";
-    addBtn.innerText = "SAVE";
+    popupTitle.innerText = "New";
+    addBtn.innerText = "Save";
     popupBox.classList.add("show");
     document.querySelector("body").style.overflow = "hidden";
     if(window.innerWidth > 660) titleTag.focus();
