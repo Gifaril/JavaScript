@@ -1,0 +1,12 @@
+.timer{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+#rocket-pic{
+    width: 300px;
+    display: none;
+}
+#countdown-number{
+    font-size: 50px;
+}

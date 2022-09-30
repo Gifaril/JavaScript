@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 70%;
+    margin: 0 auto 200px;
+}
+.textarea{
+    display: flex;
+    /* font-size: 20px; */
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.stickynote{
+    background-color: aqua;
+    padding: 70px 20px;
+    width: 30%;
+    margin: auto auto 100px;
+    text-align: center;
+}
+button{
+    padding: 5%;
+    background-color: aliceblue;
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 0 5%;
+}
+#text{
+    font-size: 30px;
+    width: 50%;
+    resize: none;
+    text-align: center;
+}
